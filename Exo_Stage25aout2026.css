@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.conteneur {
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.entete {
+    background-color: #cc0000;
+    padding: 14px;
+    text-align: center;
+}
+
+.entete h1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+form {
+    padding: 20px;
+}
+
+.champ {
+    margin-bottom: 16px;
+}
+
+.champ label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+}
+
+.champ input,
+.champ select,
+.champ textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.champ textarea {
+    min-height: 70px;
+    resize: vertical;
+}
+
+button {
+    background-color: #ffffff;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    border-radius: 4px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+    color: #ffffff;
+}
