@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>DEMANDE DE MATERIEL INFORMATIQUE</title>
+   <link rel="stylesheet" href="Exo_Stage25aout2026.css">
+
+</head>
+<body>
+
+    <div class="conteneur">
+        <div class="entete">
+            <h1>DEMANDE DE MATERIEL INFORMATIQUE</h1>
+        </div>
+
+        <!-- Début du formulaire avec la méthode post et l'action demandée -->
+        <form method="post" action="recuperation.php">
+
+            <div class="champ">
+                <label for="nom">Nom de la structure</label>
+                <input type="text" name="nom" id="nom" />
+            </div>
+
+            <div class="champ">
+                <label for="type_structure">Type de structure</label>
+                <select name="type_structure" id="type_structure">   
+                    <option value="entreprise">Entreprise</option>
+                     <option value="ecole">Etablissement scolaire</option>
+                    <option value="association">Association</option>
+                </select>
+                   </div> 
+
+            <div class="champ">
+                <label for="nom_contact">Nom du contact</label>
+                <input type="text" name="nom_contact" id="nom_contact" />
+            </div>
+
+            <div class="champ">
+                <label for="email">Email</label> 
+            <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="champ">
+                <label for="categorie_matos">Catégorie de materiel</label>
+                <select name="categorie_matos" id="categorie_matos">   
+                    <option    value="ordi">Ordinateur</option>
+                    <option value="matos_reseaux">Materiel reseaux</option>
+                    <option value="imprimantes_scanners">Imprimante / Scanners</option>
+                    </select> 
+            </div>
+
+            <div class="champ">
+                <label for="description">Description</label>
+                <textarea id="description" name="description"></textarea>
+     </div>
+
+            <div class="champ">
+                 <label for="quantite">Quantité</label>
+             <input type="number" name="quantite" id="quantite" />
+                </div>
+
+            <div class="champ">
+                <label for="date_souhaitee">Date souhaitée</label>
+                <input type="date" name="date_souhaitee" id="date_souhaitee" />
+            </div>
+
+            <button type="submit">Envoyer la demande</button>
+
+           </form>
+  </div>  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
